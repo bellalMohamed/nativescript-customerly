@@ -1,0 +1,13 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+	buildscript {
+	    repositories {
+	        jcenter()
+	    }
+	}
+}
+
+dependencies {
+    compile 'io.customerly:customerly-android-sdk:3.0.8'
+}
